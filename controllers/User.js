@@ -70,7 +70,8 @@ router.post(CONST.POST_CREATE, async (req, res) => {
             firstName:req.body.firstName,
             lastName:req.body.lastName,
             employeeId:req.body.employeeId,
-            employeeOrgnization:req.body.employeeOrgnization
+            employeeOrgnization:req.body.employeeOrgnization,
+            roles:["5e283f86946f7a2a7476fc5c"]//static admin remove for dynamic
        });
         // 5e283f86946f7a2a7476fc5c
         try {

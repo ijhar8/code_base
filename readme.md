@@ -37,18 +37,17 @@ https://jasonwatmore.com/post/2018/11/28/nodejs-role-based-authorization-tutoria
 
 
 
-
-
-//Admin api points
-prefix /admin
 1:-post user/create 
 
 request object ={
-	
-	"email":"ijhar@gmail.com",
-	"password":"123456789",
-	"confirmPassword":"123456789"
-       
+    "email":"rt4rx@gmail.com",
+    "password":"12345678",
+    "confirmPassword":"12345678",
+    "firstName":"f",
+            "lastName":"lastName",
+            "employeeId":"employeeIdr",
+            "employeeOrgnization":"employeeOrgnizationr"
+    
 }
 
 2:- post /auth/login 
