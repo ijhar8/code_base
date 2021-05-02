@@ -1,0 +1,10 @@
+{
+    "APP": {
+        "port": 8888,
+        "JWT_SECRET": "12345",
+        "OTP_SECRET": "67890"
+    },
+    "DB": {
+        "uri": "mongodb+srv://ijhar:1234@cluster0-hi3ct.mongodb.net/test?retryWrites=true&w=majority"
+    }
+}
